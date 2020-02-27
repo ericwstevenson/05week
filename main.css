@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 18px;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+body {
+    height: calc(100vh - 64px);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 760px;
+    margin: 32px auto;
+    background-color: white;
+    border: 1px solid black;
+    padding: 32px;
+    box-shadow: 5px 10px 8px #888888;
+}
+header {
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: black;
+}
+main {
+    margin: 0;
+}
+section {
+    float: left;
+    width: 100%;
+    padding: 1.5em 0;
+}
+footer {
+    clear: both;
+    margin-top: 1em;
+    border-top: 2px solid black;
+}
+footer p {
+    text-align: right;
+    font-size: 80%;
+    margin: 1em 0;
+}
+h1 {
+    font-size: 150%;
+    margin: 0;
+    padding: .5em 0 .25em;
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;
+}
+h1, h2 {
+    color: rgb(208, 133, 4);
+}
+ul {
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2.5em;
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: royalblue;
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(208, 133, 4);
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+#table-overflow {
+    height: 60vh;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+/* the styles for classes */
+.right {
+    text-align: right;
+}
+.last_paragraph {
+	margin-bottom: 2em;	
+}
+.margin_top_increase {
+	margin-top: 1em;	
+}
+.button {
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 2px #000;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .blue {
+    background-color: royalblue;
+  }
+  .red {
+      background-color: orangered;
+  }
+
+/********************************************************************
+* Additional styles 
+********************************************************************/
+#add_item_form {
+    margin: .5em 0 1em;
+}
+#add_item_form label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#add_item_form input {
+    float: left;
+}
+#add_item_form input[text] {
+    width: 15em;
+}
